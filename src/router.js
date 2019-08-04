@@ -24,6 +24,18 @@ export default new Router({
             name: 'post',
             component: () =>
                 import ( /* webpackChunkName: "post" */ './views/Post.vue')
+        },
+        {
+            path: '/category/:id',
+            name: 'category_id',
+            component: () =>
+                import ( /* webpackChunkName: "post" */ './views/CategoryID.vue')
+        },
+        {
+            path: '/category_list/:id',
+            name: 'category_list',
+            component: () =>
+                import ( /* webpackChunkName: "post" */ './views/CategoryList.vue')
         }
     ]
 })
