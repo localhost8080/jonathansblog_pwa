@@ -1,8 +1,9 @@
 <template>
   <div>
+    <img class="img-fluid" :src="post.jetpack_featured_media_url">
     <h1 v-html="post.title.rendered"></h1>
     <div v-html="post.excerpt.rendered"></div>
-    <img class="img-fluid" :src="post.jetpack_featured_media_url">
+    <router-link class="btn btn-success" v-bind:to="'/post/' + post.id">View more</router-link>
   </div>
 </template>
 
