@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-
     <img class="img-fluid" :src="post.jetpack_featured_media_url"> 
     <h1 v-html="post.title.rendered"></h1>
     <div v-html="post.content.rendered"></div>
