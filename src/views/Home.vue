@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
     <PostSmall 
       v-for="post in posts"
       v-bind:key="post.id"
