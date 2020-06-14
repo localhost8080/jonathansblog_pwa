@@ -26,8 +26,8 @@ export default {
   mounted(){
     axios.get('https://jonathansblog.co.uk/wp-json/wp/v2/posts/' + this.$route.params.id)
     .then(response => {
-      this.post = response.data
-      console.log(response.data)
+      this.post = response.data;
+      // console.log(response.data)
     })  
   }
 }
