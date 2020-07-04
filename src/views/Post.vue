@@ -1,14 +1,8 @@
 <template>
   <div class="home">
     <img class="img-fluid mb-4" :src="post.jetpack_featured_media_url"> 
-     <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1 v-html="post.title.rendered"></h1>
-          <div v-html="post.content.rendered"></div>
-        </div>
-      </div>
-     </div>
+    <h1 v-html="post.title.rendered"></h1>
+    <div v-html="post.content.rendered"></div>
   </div>
 </template>
 
