@@ -1,11 +1,12 @@
 <template>
   <div id="app">
-      <div id="nav" class="navbar navbar-light bg-light">
-        <router-link class="navbar-brand" to="/">Home</router-link>
-        <router-link class="navbar-brand" to="/category_list/0">Categories</router-link>
+     <router-view />
+      <div id="nav" class="navbar fixed-bottom navbar-light bg-light">
+        <router-link class="navbar-brand" to="/"><font-awesome-icon icon="home"></font-awesome-icon></router-link>
+        <router-link class="navbar-brand" to="/category_list/0"><font-awesome-icon icon="bars"></font-awesome-icon></router-link>
       </div>
 
-      <router-view />
+     
   </div>
 </template>
 

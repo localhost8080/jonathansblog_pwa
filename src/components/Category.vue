@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-12">
           <h1 v-html="category.name"></h1>
-          <router-link v-if="post.length > 0" class="btn btn-success btn-block" v-bind:to="'/category/' + category.id">View Posts</router-link>
+          <router-link v-if="post.length > 0" class="btn btn-primary btn-block" v-bind:to="'/category/' + category.id">View Posts</router-link>
           <router-link v-if="cat.length > 0" class="btn btn-success btn-block" v-bind:to="'/category_list/' + category.id">View Sub Categories</router-link>
         </div>
       </div>
