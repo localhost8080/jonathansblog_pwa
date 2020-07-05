@@ -29,4 +29,7 @@
 h1 {
   text-align:center
 }
+.container {
+  overflow:hidden;
+}
 </style>
