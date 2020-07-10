@@ -27,7 +27,7 @@ export default {
     axios.get('https://jonathansblog.co.uk/wp-json/wp/v2/posts?categories=' + this.$route.params.id)
     .then(response => {
       this.posts = response.data
-      console.log(response.data)
+      // console.log(response.data)
     })
     
   }

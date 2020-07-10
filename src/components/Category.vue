@@ -22,12 +22,12 @@ export default {
     axios.get('https://jonathansblog.co.uk/wp-json/wp/v2/posts?categories=' + this.category.id)
     .then(response => {
       this.post = response.data
-      console.log(response.data)
+      // console.log(response.data)
     }),
      axios.get('https://jonathansblog.co.uk/wp-json/wp/v2/categories?per_page=100&parent=' + this.category.id)
     .then(response => {
       this.cat = response.data
-      console.log(response.cat)
+      // console.log(response.cat)
     })  
   }
 }

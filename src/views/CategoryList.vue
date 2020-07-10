@@ -26,7 +26,7 @@ export default {
     axios.get('https://jonathansblog.co.uk/wp-json/wp/v2/categories?per_page=100&parent=' + this.$route.params.id )
     .then(response => {
       this.categories = response.data
-      console.log(response.data)
+      // console.log(response.data)
     })
   }
 }
