@@ -1,11 +1,8 @@
 <template>
   <div id="app">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 mt-3">
-          <router-view />
-        </div>
-      </div>
+   
+      <router-view />
+       
       <div class="row">
          <div class="col-12">
           <div id="nav" class="navbar fixed-bottom navbar-light bg-light">

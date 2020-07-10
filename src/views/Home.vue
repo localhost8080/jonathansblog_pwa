@@ -1,10 +1,17 @@
 <template>
-  <div class="home">
-    <PostSmall 
-      v-for="post in posts"
-      v-bind:key="post.id"
-      v-bind:post="post"/>
+ <div class="container">
+  <div class="row">
+    <div class="col-12 mt-3">
+      <div class="home">
+        <PostSmall 
+          v-for="post in posts"
+          v-bind:key="post.id"
+          v-bind:post="post"/>
+      </div>
+    </div>
   </div>
+ </div>
+
 </template>
 
 <script>
