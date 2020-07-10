@@ -38,4 +38,8 @@ h1 {
   opacity: 0
 }
 
+.btn.btn-primary, .btn.btn-primary:not(:disabled):not(.disabled):active{
+  background:#008582;
+  border:#008582;
+}
 </style>
