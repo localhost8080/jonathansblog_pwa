@@ -24,7 +24,7 @@ export default {
     PostSmall
   },
     mounted(){
-    axios.get('https://jonathansblog.co.uk/wp-json/wp/v2/posts')
+    axios.get('https://jonathansblog.co.uk/wp-json/wp/v2/posts?categories=15709')
     .then(response => {
       this.posts = response.data;
       // console.log(response.data)

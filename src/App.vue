@@ -2,7 +2,7 @@
   <div id="app">
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 mt-3">
           <router-view />
         </div>
       </div>
@@ -10,7 +10,6 @@
          <div class="col-12">
           <div id="nav" class="navbar fixed-bottom navbar-light bg-light">
             <router-link class="navbar-brand" to="/"><font-awesome-icon icon="home"></font-awesome-icon></router-link>
-            <router-link class="navbar-brand" to="/category_list/0"><font-awesome-icon icon="bars"></font-awesome-icon></router-link>
           </div>
         </div>
       </div>
