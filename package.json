@@ -30,6 +30,7 @@
     "axios": "^0.19.2",
     "bootstrap-vue": "^2.15.0",
     "cordova-build-increment": "^0.1.0",
+    "cordova-icon": "^1.0.0",
     "core-js": "^2.6.11",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",
